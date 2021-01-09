@@ -1,0 +1,405 @@
+<!-- barre de navigation pour bureau -->
+<nav class="navbar-desktop hide-on-mobile">
+
+    <input type="checkbox" id="btn-nav" class="hidden"/>
+
+    <section class="nav__inner">
+
+        <label for="btn-nav" class="nav__button">
+            <i></i>
+            <i></i>
+            <i></i>
+        </label>
+
+        <ul class="nav__wrapper">
+            <li>
+                <a href="#" target="_self" class="nav__link">Accueil</a>
+            </li>
+            <li>
+                <a href="#about-me" target="_self" class="nav__link">A Propos de moi</a>
+            </li>
+            <li>
+                <a href="#skill" target="_self" class="nav__link">Competences</a>
+            </li>
+            <li>
+                <a href="#project" target="_self" class="nav__link">Realisations</a>
+            </li>
+            <li>
+                <a href="#course" target="_self" class="nav__link">Parcours</a>
+            </li>
+            <li>
+                <a href="#" target="_self" class="nav__link">CV</a>
+            </li>
+        </ul>
+
+    </section>
+
+</nav>
+
+<nav class="navbar-mobile show-on-mobile">
+
+    <input type="checkbox" id="btn-mobile" class="hidden"/>
+
+    <label for="btn-mobile" class="nav-mobile__button">
+        <i></i>
+        <i></i>
+        <i></i>
+    </label>
+
+    <ul class="nav-mobile__wrapper">
+        <li>
+            <a href="#" class="nav__link" target="_self">Accueil</a>
+        </li>
+        <li>
+            <a href="#about-me" class="nav__link" target="_self">A Propos de moi</a>
+        </li>
+        <li>
+            <a href="#skill" class="nav__link" target="_self">Competences</a>
+        </li>
+        <li>
+            <a href="#project" class="nav__link" target="_self">Realisations</a>
+        </li>
+        <li>
+            <a href="#course" class="nav__link" target="_self">Parcours</a>
+        </li>
+        <li>
+            <a href="#" class="nav__link" target="_self">CV</a>
+        </li>
+    </ul>
+
+</nav>
+
+<!-- Section Acceuil -->
+
+<header>
+
+    <section class="hide-on-mobile">
+
+        <div class="header__description">
+            <p>
+                Salut! je m'appelle <br>
+                <strong> MOUCKEYTOU MOULONGUI </strong> <br>
+                <span> {{ job }} </span>
+            </p>
+
+            <div class="header__description--start">
+                <p>
+                    <a href="#about-me">En savoir plus sur moi ?</a>
+                </p>
+                
+            </div>
+
+        </div>
+
+        <div class="header__profil">
+            <img src="/images/rsz_mouckeytou-sabil.jpg" alt="MOUCKEYTOU MOULONGUI Sabil Mohammed">
+        </div>
+
+    </section>
+
+    <div class="header__contact hide-on-mobile">
+
+        <a href="https://twitter.com/ZephyrDynamo"><i class="fab fa-twitter-square"></i></a>
+
+        <a href="https://github.com/dynamo63?tab=repositories"><i class="fab fa-github-square"></i></a>
+
+        <a href="https://www.linkedin.com/in/mouckeytou-moulongui/"><i class="fab fa-linkedin"></i></a>
+
+        <i> #Je code quand je m'ennuie! </i>
+
+    </div>
+
+    <section class="banner__mobile hide-on-desktop">
+
+        <div class="banner__img">
+            <img src="/images/rsz_mouckeytou-sabil.jpg" alt="MOUCKEYTOU MOULONGUI Sabil Mohammed">
+        </div>
+
+        <div class="banner__description">
+
+            <p>
+                Salut! je m'appelle <br>
+                <strong> MOUCKEYTOU MOULONGUI </strong> <br>
+                <span> {{ job }} </span>
+            </p>
+
+        </div>
+
+    </section>
+
+</header>
+
+<main>
+
+    <section class="introduction" id="about-me">
+
+        <h1 class="title">A Propos de moi</h1>
+
+        <div>
+
+            <div class="introduction__content">
+
+                <p>
+                    Je suis un <strong>{{ job }}</strong>. &nbsp;  <strong>Autodidacte et passionné</strong> , j’ai appris à apprendre et je sais donc m’adapter rapidement à vos projets .
+                </p>
+                
+                <p>
+                    Pour moi , <strong>la programmation est un art</strong>, je m’y suis lancé au lycée parce que j’aimais les difficultés mathématiques et j'étais curieux de savoir comment le numérique fonctionne . &nbsp;  Après des mois de veille , je me suis beaucoup intéressé au domaine web parce que <strong>le futur,c’est le web</strong> .
+                </p>
+
+                <p>
+                    Mon objectif professionnel est de <strong> créer une plateforme web en Afrique pour l’Afrique </strong> qui centralise le numérique dans laquelle on pourra former,apprendre , partager l’univers du digital .
+                </p>
+
+                <p>
+                    Je suis actuellement en formation à l'Ecole 241 dans le but d’aiguiser mes compétences . &nbsp; Toutefois je suis toujours a la recherche de nouveaux défis ou de personne qui adhère à mon projet .
+                </p>
+
+            </div>
+
+            <div class="introduction__link hide-on-mobile">
+
+                <a href="mailto:smoulongui@gmail.com">
+                    <i class="fas fa-at"></i>
+                    smoulongui@gmail.com
+                </a>
+
+                <a href="https://wa.me/24166192844">
+                    +241 66192844
+                    <i class="fab fa-whatsapp-square"></i>
+                </a>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="skill">
+
+        <h1 class="title" id="skill">Competences</h1>
+
+        <div>
+
+            <div class="skill__progress_bar">
+                <p>Je suis outille de plusieurs langages informatique pour repondre a diverse exigences.</p>
+
+                <div>
+                    <div class="info__bar">
+                        HTML5 <span>90%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="html5 progress__bar"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info__bar">
+                        CSS3 / SCSS <span>85%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="css3 progress__bar"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info__bar">
+                        JavaScript / TypeScript <span>70%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="javascript progress__bar"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info__bar">
+                        Python3 <span>80%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="python3 progress__bar"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info__bar">
+                        PHP7 <span>10%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="php progress__bar"></div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info__bar">
+                        MySQL <span>50%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="mysql progress__bar"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="skill__boxes">
+
+                <div class="skill__box">
+
+                    <div class="skill__box__img">
+                        <img src="/images/frontend.png" alt="Frontend with technology React and React Native">
+                    </div>
+                    <h4>Frontend</h4>
+                    <ul>
+                        <li>Bulma.css</li>
+                        <li>Materialize.css</li>
+                        <li>React.js</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill__box">
+                    
+                    <div class="skill__box__img">
+                        <img src="/images/backend.png" alt="Backend with a framework Django">
+                    </div>
+                    <h4>Backend</h4>
+                    <ul>
+                        <li>Django</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!-- Ma section pour les realisations  -->
+
+    <section class="achievement" id="project">
+
+        <h1 class="title">Realisations</h1>
+
+        <div class="projects">
+
+            <div class="card">
+
+                <div class="card__img">
+                    <img src="https://www.julien-prevel.com/wp-content/uploads/2015/05/LOGO-METEOJOB_OCTOBRE_2015.png" alt="Formulaire d'inscription de Meteo Job ..">
+                </div>
+                <div class="card__content">
+                    <div>
+                        <p>Integration du formulaire d'inscription de meteojob</p>
+                        <a href="https://dynamo63.github.io/meteo_job/" class="card__link" target="_blank">Voir Plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card__img">
+                    <img src="/images/rsz_lettre_de_motivation.png" alt="Lettre de motivation addresse a l'ecole241" />
+                </div>
+
+                <div class="card__content">
+                    <div>
+                        <p>Lettre de Motivation addresse a l'Ecole241</p>
+                        <a href="https://dynamo63.github.io/project-letter-ecole241/" class="card__link" target="_blank">Voir Plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card__img">
+                    <img src="/images/rsz_emploi-du-temps.png" alt="Emploi du temps de l'Ecole241">
+                </div>
+
+                <div class="card__content">
+                    <div>
+                        <p>Emploi du temps de l'ecole241</p>
+                        <a href="https://dynamo63.github.io/project-table-ecole241/" class="card__link" target="_blank">Voir Plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card__img">
+                    <img src="/images/rsz_formulaire.png" alt="Formulaire de renseignement">
+                </div>
+
+                <div class="card__content">
+                    <div>
+                        <p>Formulaire de renseignement</p>
+                        <a href="https://dynamo63.github.io/project-form-ecole241/" class="card__link" target="_blank">Voir Plus</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="course">
+
+        <div class="timeline" id="course">
+
+            <h1 class="title">Parcours</h1>
+
+            <ul>
+                <li class="timeline__item">
+                    <div class="timeline__before">
+                        <div class="circle line-1">
+                            3
+                        </div>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Ecole241</h3>
+                        <p>
+                            Apprentissage des bonnes pratiques informatiques et perfectionnement de l’outil des developpeurs, j’ai appris ici a etre un berseker du numerique.
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item">
+                    <div class="timeline__before">
+                        <div class="circle line-2">
+                            2
+                        </div>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Pacours Autodidacte</h3>
+                        <p>
+                            Pendant environ un an, j’ai appris en ligne, appris a apprendre de par le web sur des plateformes comme udemy,Openclassrooms,etc..
+                        </p>
+                    </div>
+                </li>
+                <li class="timeline__item">
+                    <div class="timeline__before">
+                        <div class="circle">
+                            1
+                        </div>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>BAC D</h3>
+                        <p>Obtention du bac avec une mention.</p>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <section class="footer__text footer__text--left">
+        <i class="fas fa-copyright"></i> Copyright by me 
+    </section>
+
+    <section class="footer__text footer__text--right show-on-mobile">
+        <a href="https://www.linkedin.com/in/mouckeytou-moulongui/" class="footer__link"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/24166192844" class="footer__link"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:smoulongui@gmail.com" class="footer__link"><i class="fas fa-envelope"></i></a>
+    </section>
+
+</footer>
